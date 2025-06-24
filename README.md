@@ -16,7 +16,20 @@ Esta diseñado para ayudar a la gestión de ventas de impresiones 3D
 
 - 1 Activar el entrono virtual 
 ~~~shell
-source ./bin/active 
+python -m venv venv
+source venv/bin/activate  
+~~~
+
+o 
+
+- En Windows 
+~~~shell
+usa venv\Scripts\activate
+~~~
+
+Despues ejecutar los requerimientos 
+~~~shell
+pip install -r requirements.txt
 ~~~
 
 - 2 Ejecutar la aplicación 
