@@ -1,2 +1,17 @@
-
+# Entorno virtual
 venv/
+.venv/
+
+# Archivos compilados
+__pycache__/
+*.py[cod]
+
+# Archivos temporales
+*.log
+*.tmp
+
+# Archivos de configuración personal
+.env
+
+# Otros
+.DS_Store
